@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
         val text = findViewById<EditText>(R.id.et_text)
         findViewById<View>(R.id.btn_action).setOnClickListener {
             startActivity(
-                Intent(this, SecondActivity::class.java).apply {
-                    putExtra(SecondActivity.EXT_TEXT, text.text.toString())
+                Intent(this, SuggestActivity::class.java).apply {
+                    putExtra(ResultActivity.EXT_TEXT, text.text.toString())
                 }
             )
         }
