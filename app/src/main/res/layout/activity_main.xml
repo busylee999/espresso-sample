@@ -10,11 +10,13 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_gravity="center">
+
         <TextView
+            android:id="@+id/first_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Enter a text!"
             android:layout_gravity="center"
+            android:text="Enter a text!"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
